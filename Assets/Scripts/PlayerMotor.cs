@@ -12,6 +12,7 @@ public class PlayerMotor : MonoBehaviour
     private float gravity = 12.0f;
 
     private float animationDuration = 3.0f;
+    private float startTime;
 
     private bool isDead = false;
 
@@ -19,6 +20,7 @@ public class PlayerMotor : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController> ();
+        startTime = Time.time;
     }
 
     // Update is called once per frame
@@ -28,7 +30,7 @@ public class PlayerMotor : MonoBehaviour
         if (isDead)
             return;
 
-        if (Time.time < animationDuration)
+        if (Time.time - startTime < animationDuration)
         {
             controller.Move (Vector3.forward * speed * Time.deltaTime);
             return; 
@@ -63,7 +65,7 @@ public class PlayerMotor : MonoBehaviour
     //It is called every time u hits something
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        if (hit.point.z > transform.position.z + controller.radius)
+        if (hit.point.z > transform.position.z + 0.1f && hit.gameObject.tag == "Enemy")
             Death ();
     }
 

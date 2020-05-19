@@ -7,9 +7,10 @@ Game Features :
 3. Score
 4. Leaderboard(Highscore)
 5. Animation when character death
-6. Bgm
-7. Artistic and Gorgeous Environment 
-8. Beautiful Character
+6. Difficulty (It will be increase if u get some point in your score)
+7. Bgm
+8. Artistic and Gorgeous Environment 
+9. Beautiful Character
 
 Main Materials Source :
 1. Character (https://assetstore.unity.com/packages/3d/characters/amane-kisora-chan-free-ver-70581)

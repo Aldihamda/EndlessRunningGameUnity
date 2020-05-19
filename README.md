@@ -17,4 +17,7 @@ Main Materials Source :
 3. Obstacles (https://assetstore.unity.com/packages/3d/environments/dungeons/decrepit-dungeon-lite-33936)
 4. Skybox (https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-volume-2-nebula-3392)
 
+U can also try to play it, while I built it in PC Windows version. U can download at https://drive.google.com/drive/folders/10oWfFRnCnBUZG3dehxCBJjz7TrWXSwV1
+
+Aldihamda Sulthon Fuad Prajakusuma. 
 19.05.2020

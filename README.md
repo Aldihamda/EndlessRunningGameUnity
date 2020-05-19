@@ -7,7 +7,7 @@ Game Features :
 3. Score
 4. Leaderboard(Highscore)
 5. Animation when character death
-6. Difficulty (It will be increase if u get some point in your score)
+6. Difficulty (It will be increase if u get some point in ur score)
 7. Bgm
 8. Artistic and Gorgeous Environment 
 9. Beautiful Character
